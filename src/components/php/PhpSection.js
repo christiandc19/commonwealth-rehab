@@ -4,9 +4,9 @@ import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'
 
 
-import PhpSection1 from '../../assets/PhpSection1.jpg'
-import PhpSection2 from '../../assets/PhpSection2.jpg'
-import PhpSection3 from '../../assets/PhpSection3.jpg'
+import PhpSection1 from '../../assets/PhpSection1.webp'
+import PhpSection2 from '../../assets/PhpSection2.webp'
+import PhpSection3 from '../../assets/PhpSection3.webp'
 
 
 const PhpSection = () => {

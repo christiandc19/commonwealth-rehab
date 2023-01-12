@@ -4,8 +4,8 @@ import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'
 
 
-import IopSection1 from '../../assets/IopSection1.jpg'
-import PhpSection2 from '../../assets/PhpSection2.jpg'
+import IopSection1 from '../../assets/IopSection1.webp'
+import PhpSection2 from '../../assets/PhpSection2.webp'
 
 
 const IopSection = () => {

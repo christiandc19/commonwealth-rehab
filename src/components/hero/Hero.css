@@ -11,66 +11,66 @@
 .hero:before {
     content: '';
     position: absolute;
-    background: url('../../assets/hero-image.jpg') no-repeat center center/cover;
+    background: url('../../assets/hero-image.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
 }
 
+.subtitle {
+    letter-spacing: .2rem;
+}
+
 .hero .hero-container {
     top: 30%;
+    align-items: center;
     position: absolute;
-    /* align-items: left; */
-    width: 100%;
-    margin: 0 2rem;
+}
+
+.hero .content {
+    width: 100vw;
 }
 
 .hero h1 {
-    font-size: 7rem;
-    color: white;
+    color: var(--primary-color);
+    font-size: 5rem;
     text-align: center;
-
 }
 
 .hero h2 {
-    font-size: 2.5rem;
     text-align: center;
-    color: white;
-    text-align: center;
-
+    color:  var(--primary-dark);
+    margin: .5rem;
 }
 
 .hero p {
-    font-size: 24px;
+    color: white;
     text-align: center;
-    color:rgb(197, 197, 5);
+    padding: .5rem 0;
     font-style: italic;
 }
 
-.hero .hero-btn button {
+.hero button {
     margin: auto;
-    cursor: pointer;
 }
 
+.hero button:hover {
+    color: var(--primary-dark);
+}
 
-/* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
 
     .hero h1 {
-        font-size: 5rem;
-        line-height: 4rem;
+        font-size: 2.5rem;
+
     }
-    
+
     .hero h2 {
-        font-size: 35px;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        letter-spacing: 1px;
     }
-
-    .hero p {
-        font-size: 16px;
-    }
-
 
     
-
 }

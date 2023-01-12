@@ -9,31 +9,43 @@ import './Hero.css'
 
 const Hero = () => {
     return (
+        <>
         <div className='hero'>
-            {/* <img src={HeroImage} width="100%" alt='hero-pic'/> */}
-
+        {/* <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />             */}
             <div className="hero-container">
                 <div className="content">
                     
+                <Fade top><h1>COMMONWEALTH REHAB</h1></Fade> 
+                <Fade bottom>
+                    <h2 className='subtitle'>MENTAL HEALTH TREATMENT FACILITY </h2>
+                    <p>Find your happiness and learn to put it first.</p>
+                </Fade>
 
-
-                    <Fade bottom>
-                        <h1>COMMONWEALTH REHAB</h1>
-                    </Fade>
-                    <Fade bottom>
-                        <h2 className='subtitle'>Mental Health  Treatment Facility </h2>
-                    </Fade>
-                        <p>Find your happiness and learn to put it first.</p>
-                        <br />
-                        <div className='hero-btn'>
-                        <Link to="/treatment">
-                        <button>Learn More</button>
-                    </Link>
-                    </div>
+                    <Link to="/treatment"><button>Learn More</button></Link>
                 </div>
             </div>
         </div>
+
+
+        </>
     )
 }
 
 export default Hero
+
+
+// .hero {
+//     width: 100%;
+//     height: 80vh;
+//     background: rgba(0, 0, 0, .4);
+//     position: relative;
+// }
+
+// .hero:before {
+//     content: '';
+//     position: absolute;
+//     background: url('../../assets/hero-image.webp') no-repeat center center/cover;
+//     height: 100%;
+//     width: 100%;
+//     z-index: -1;
+// }
