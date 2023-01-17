@@ -38,7 +38,7 @@
 }
 
 .contact-container form {
-    height: 37rem;
+    height: 39rem;
     width: 300px;
     background: url('../../assets/menu-bg.webp') no-repeat center center/cover;
     border-radius: 1rem;
@@ -57,7 +57,9 @@
     margin-left: 10rem;
 }
 
-
+textarea {
+    resize: none;
+  }
 
 /* 940px */
 @media screen and (max-width: 940px) {

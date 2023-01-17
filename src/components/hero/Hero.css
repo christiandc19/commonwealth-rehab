@@ -39,12 +39,12 @@
 
 .hero h2 {
     text-align: center;
-    color:  var(--primary-dark);
+    color:  white;
     margin: .5rem;
 }
 
 .hero p {
-    color: white;
+    color: var(--primary-color);
     text-align: center;
     padding: .5rem 0;
     font-style: italic;
