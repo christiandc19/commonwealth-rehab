@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/commonwealth-rehab/static/css/main.98d19cf3.css",
-    "main.js": "/commonwealth-rehab/static/js/main.73e12dc2.js",
+    "main.css": "/commonwealth-rehab/static/css/main.fdf438eb.css",
+    "main.js": "/commonwealth-rehab/static/js/main.a2906ec5.js",
     "static/media/therapy.jpg": "/commonwealth-rehab/static/media/therapy.d1176c8e87de94fcc86d.jpg",
-    "static/media/card2.jpg": "/commonwealth-rehab/static/media/card2.5e75af6ddb3c5df54242.jpg",
-    "static/media/footer-bg.webp": "/commonwealth-rehab/static/media/footer-bg.82fabf297fc0244dc3a5.webp",
     "static/media/treatment-1.jpg": "/commonwealth-rehab/static/media/treatment-1.9b93aa36872433733c19.jpg",
-    "static/media/card3.jpg": "/commonwealth-rehab/static/media/card3.dc3c4302916a32425fc1.jpg",
     "static/media/treatment-2.jpg": "/commonwealth-rehab/static/media/treatment-2.6125ee1c93e30c1b25e6.jpg",
-    "static/media/whatwedo.jpg": "/commonwealth-rehab/static/media/whatwedo.de5e5f2acbffc6cb5e05.jpg",
     "static/media/activity.jpg": "/commonwealth-rehab/static/media/activity.18cf9f92ce0257180036.jpg",
-    "static/media/card1.jpg": "/commonwealth-rehab/static/media/card1.ae733eafe79c7ac1e269.jpg",
+    "static/media/hero-image.jpg": "/commonwealth-rehab/static/media/hero-image.26fe6e686e3542ba6947.jpg",
     "static/media/staff.jpg": "/commonwealth-rehab/static/media/staff.496c01aa40561c1f357d.jpg",
     "static/media/employment-assistance.png": "/commonwealth-rehab/static/media/employment-assistance.b877570723c987f63091.png",
-    "static/media/hero-image.webp": "/commonwealth-rehab/static/media/hero-image.e7ba19e2c4e7a7cee127.webp",
-    "static/media/submenu-bg.webp": "/commonwealth-rehab/static/media/submenu-bg.68b46b096e026eac0a7e.webp",
+    "static/media/card3.jpg": "/commonwealth-rehab/static/media/card3.f0085a5f8f37be02ef46.jpg",
+    "static/media/whatwedo.jpeg": "/commonwealth-rehab/static/media/whatwedo.1517e5eac8589e65e28d.jpeg",
+    "static/media/submenu-bg.jpg": "/commonwealth-rehab/static/media/submenu-bg.6d917d2daeeae6b86aaf.jpg",
     "static/media/nav-logo.png": "/commonwealth-rehab/static/media/nav-logo.ef48a7d869f2aaea8771.png",
+    "static/media/menu-bg.jpg": "/commonwealth-rehab/static/media/menu-bg.16e696bd59c05e9d79fd.jpg",
+    "static/media/card2.jpg": "/commonwealth-rehab/static/media/card2.a41be47346b69d3b5967.jpg",
     "static/media/clinic.jpg": "/commonwealth-rehab/static/media/clinic.3c0cf43b0d3bee224bf4.jpg",
-    "static/media/menu-bg.webp": "/commonwealth-rehab/static/media/menu-bg.18daa8be347cb1423539.webp",
+    "static/media/footer-bg.jpg": "/commonwealth-rehab/static/media/footer-bg.55a56415bfcf6600fd3e.jpg",
+    "static/media/card1.jpg": "/commonwealth-rehab/static/media/card1.c118f28bc1323c8bf717.jpg",
     "static/media/PhpSection3.jpg": "/commonwealth-rehab/static/media/PhpSection3.b181ff1a26ae4664f97b.jpg",
     "static/media/IopSection1.jpg": "/commonwealth-rehab/static/media/IopSection1.2c6d9291efd554cf9cd8.jpg",
     "static/media/OpSection1.jpg": "/commonwealth-rehab/static/media/OpSection1.dda466575667829e7928.jpg",
@@ -37,11 +37,11 @@
     "static/media/anthem.png": "/commonwealth-rehab/static/media/anthem.f94082dd511baedda048.png",
     "static/media/optum.png": "/commonwealth-rehab/static/media/optum.03f8ca41aa7422e27847.png",
     "index.html": "/commonwealth-rehab/index.html",
-    "main.98d19cf3.css.map": "/commonwealth-rehab/static/css/main.98d19cf3.css.map",
-    "main.73e12dc2.js.map": "/commonwealth-rehab/static/js/main.73e12dc2.js.map"
+    "main.fdf438eb.css.map": "/commonwealth-rehab/static/css/main.fdf438eb.css.map",
+    "main.a2906ec5.js.map": "/commonwealth-rehab/static/js/main.a2906ec5.js.map"
   },
   "entrypoints": [
-    "static/css/main.98d19cf3.css",
-    "static/js/main.73e12dc2.js"
+    "static/css/main.fdf438eb.css",
+    "static/js/main.a2906ec5.js"
   ]
 }
