@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'
 
 
-import WhatWeDoImg from '../../assets/whatwedo.jpg'
+import WhatWeDoImg from '../../assets/whatwedo.jpeg'
 
 const WhatWeDo = () => {
   return (
@@ -34,7 +34,7 @@ const WhatWeDo = () => {
 
     <Fade right>
     <div className="box">
-        <img src={WhatWeDoImg} width="600px" height="550px" alt="Palm Springs Rehab Logo" loading="lazy" />
+        <img src={WhatWeDoImg} width="600px" height="490px" alt="Palm Springs Rehab Logo" loading="lazy" />
     </div>
     </Fade>
 </div>
