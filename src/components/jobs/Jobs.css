@@ -1,64 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
 .jobs {
     width: 100%;
     height: 80vh;
-    background: rgba(0, 0, 0, .4);
     position: relative;
-}
-
-.jobs:before {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(0, 0, 0, .5);
+  }
+  
+  .jobs:before {
     content: '';
     position: absolute;
-    background: url('../../assets/submenu-bg.jpg') no-repeat center center/cover;
+    background: url('../../assets/submenu-bg-jobs.jpg') no-repeat center top/cover;
     height: 80vh;
     width: 100%;
     z-index: -1;
+  }
+
+
+.jobs .jobs-content {
+    display: block;
+    position: absolute;
+    top: 40%;
+    padding: 1rem;
 }
 
-.jobs .content {
-    position: absolute;
-    top: 30%;
-    padding: 15px;
+.jobs h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .jobs h1 {
-    text-align: left;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
     color: white;
-    padding: 10px 0;
+
+
 }
 
-.jobs p {
-    color: #f8f8f8;
-    text-align: justify;
-}
 
-.job-link a {
-    color: rgb(74, 233, 74);
-}
 
-.job-link a:hover {
-    color: rgb(211, 16, 185);
-}
+/* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
-    .jobs .content {
-    width: 100%;
-    padding: 25px;
-    }
 
-    .jobs p {
-        color: #f8f8f8;
-        font-size: 14px;
-    }
-
-    .jobs h1 {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    .jobs .content {
-        top: 25%;
-    }
-
+.jobs h2 {
+    font-size: 1.5rem;
 }
 
-
+.jobs h1 {
+    font-size: 2rem;
+}
+}
