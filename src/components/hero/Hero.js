@@ -32,10 +32,10 @@ const Hero = () => {
                         <div className='hero-btn'>
                         <Link to="/contact">
                         <button>Get an Appointment</button>
-                    </Link>
-                    </div>
-                    <br />
-                    <Fade bottom>
+                        </Link>
+                        </div>
+                        <br />
+                        <Fade bottom>
                         <p>Find your happiness and learn to put it first.</p>
                     </Fade>
                 </div>
