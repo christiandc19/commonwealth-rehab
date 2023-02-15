@@ -53,9 +53,10 @@
 
 .hero .hero-container {
     top: 20%;
-    left: 8%;
     position: absolute;
     margin: 1rem;
+    text-align: center;
+
 }
 
 
@@ -64,21 +65,21 @@
 }
 
 .hero h1 {
-    font-size: 3.5rem;
-    text-align: left;
+    font-size: 5rem;
+    text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
 .hero h2 {
     font-size: 1.5rem;
-    text-align: left;
+    text-align: center;
     color: white;
 }
 
 .hero-container p {
     font-size: 24px;
-    text-align: left;
+    text-align: center;
     color: white;
 }
 
@@ -92,48 +93,15 @@
 @media screen and (max-width:940px) {
 
     .hero h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .hero h2 {
-        font-size: 22px;
-    }
-
-    .hero p {
         font-size: 16px;
     }
 
-    .hero .container {
-        top: 30%;
-    }
-    
-    .hero .hero-container {
-        top: 25%;
-        left: 5%;
-        width: 100%;
-    }
-
-}
-
-
-
-
-
-  
-
-
-
-
-/* MEDIA QUERIES */
-
-@media screen and (max-width:940px) {
-
-    .hero h2 {
-        font-size: 18px;
-    }
-
     .hero p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .hero .hero-container {

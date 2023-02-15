@@ -30,7 +30,7 @@ const MHSection = () => {
   </Fade>
   <div class="sa-text">
   <h5>SUBTANCE ABUSE​</h5>
-  <h1>Partial Hospitalizaion Program​</h1>
+  <h1>Partial Hospitalization Program​</h1>
   <p class="sa-animate-text">Some of our clients are here to attend to their mental health, and some come to us for help with addiction and sobriety.</p>
     <div class="sa-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
