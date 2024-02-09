@@ -2,17 +2,17 @@
 .InsuranceSection {
     width: 100%;
     position: relative;
-    padding: 5rem 0;
-    background: #F0EFE3;
+    background: #ffffff;
+    padding: 3rem 0;
 }
 
 .InsuranceSection .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
     width: 100%;
-    padding: 2rem 0;
+    padding: 2rem 0 ;
 }
 
 .InsuranceSection-container {
@@ -21,21 +21,31 @@
 }
 
 .InsuranceSection-container p {
-        padding: 1rem 0;
-        font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding: .5rem 0;
     }
 
 .InsuranceSection h1 {
-    padding: 1rem;
     font-family: 'Montserrat', sans-serif;
+    color: black;
 }
 
 .insurance-thumbnail {
-    width: 200px;
+    width: 100px;
+    height: auto;
 }
 
 .insurance-thumbnail img {
     width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.insurance-thumbnail img:hover {
+    -webkit-filter: none;
+    filter:none;
+    opacity: 1;
 }
 
 .InsuranceSection .flex-right {

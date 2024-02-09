@@ -8,13 +8,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: #783a0425;
-  }
+    background: #24232377;
+}
   
   .insurance:before {
     content: '';
     position: absolute;
-    background: url('../../assets/menu-bg-insurance-min.jpg') no-repeat center bottom/cover;
+    background: url('../../assets/menu-bg-insurance-min.jpg') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -23,7 +23,7 @@
 .insurance .insurance-content {
     display: block;
     position: absolute;
-    top: 40%;
+    top: 60%;
     padding: 1rem;
 }
 

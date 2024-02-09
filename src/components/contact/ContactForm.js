@@ -15,8 +15,18 @@ const ContactForm = () => {
         e.preventDefault();
 
 
+            // Popup message after send button is clicked
+            const feedbackEl = document.querySelector(".feedback");
+            feedbackEl.setAttribute("class", "feedback");
+            setTimeout(function() {
+            feedbackEl.setAttribute("class", "feedback hidden");
+            }, 3000);
+
+
+
+
         //    Service Id        Template Id                 Public Key (Account Tab) 
-        emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
+        emailjs.sendForm('service_hsunksm', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -29,6 +39,15 @@ const ContactForm = () => {
     return (
         <>
 <div className="contactform">
+
+
+<div className="contact2-header contact2-container">
+            <h1>DO YOU NEED URGENT HELP?</h1>
+            <p>Our Addiction and Recovery Support team is available to assist you.</p>
+        </div>
+
+
+
 
 <section className="container">
 <div>
@@ -50,6 +69,12 @@ const ContactForm = () => {
                 <textarea name="message" placeholder="How can we help?" cols="30" rows="10" required></textarea>
                 <input type="submit" value="Submit" />
               </div>
+
+              <div className="textarea2 feedback hidden">
+                  <textarea name="message2" cols="30" rows="3" required>Message Sent to Fremont Rehab!</textarea>
+                </div>
+
+
             </form>
     </div>
 </div>
@@ -61,17 +86,17 @@ const ContactForm = () => {
     
     <div class="get_form_inner2">
             <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3237920502"> +1 (323) 792-0502</a></p>
+            <p><AiOutlinePhone /><a href="tel:3233304771"> +1 (323) 330-4771</a></p>
     </div>
 
     <div class="get_form_inner2">
             <h2>EMAIL</h2>
-            <p><AiOutlineMail /> info@domainName.com  </p><br />
+            <p><AiOutlineMail /> info@fremontrehab.biz </p><br />
     </div>
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 3700 Sunset Ln, Suite 2, Antioch, CA 94509 </p>
+            <p><BsFillPinMapFill /> 37112 Maple Street, Fremont CA 95841 </p>
     </div>
 
 </div>

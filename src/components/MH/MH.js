@@ -1,21 +1,24 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
-
 import './MH.css'
 
 
 const MH = () => {
     return (
-        <>
-        <div className='mh submenu'>
+<>        
 
-                <div className="mh-content">
-                    <Fade top>
-                    <h1>MENTAL HEALTH PROGRAMS</h1>
-                    </Fade>
-                </div>
-            </div>
-        </>
+<div className='mental-health'>
+
+<div className="mental-health-content">
+    <Fade right>
+        <h1>MENTAL HEALTH PROGRAMS</h1>
+        <p>Treatment Planning for Long-Lasting Recovery</p>
+    </Fade>
+</div>
+</div>
+
+</>
+
     )
 }
 

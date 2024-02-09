@@ -1,124 +1,82 @@
 import React from "react";
 import "./Cards.css";
+import Fade from 'react-reveal/Fade';
 
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 
-import Fade from "react-reveal/Fade";
-
-import Card1 from "../../assets/card1.jpg";
-import Card2 from "../../assets/card2.jpg";
-import Card3 from "../../assets/card3.jpg";
+import Card1 from "../../assets/PHP.webp";
+import Card2 from "../../assets/IOP.webp";
+import Card3 from "../../assets/OP.webp";
 
 const Cards = () => {
   return (
     <>
+    <div className="section-bg">
       <div id="cards">
         <div className="main-cards-header container">
-          <h1>WELCOME TO COMMONWEALTH REHAB</h1>
-          <h2>“Taking a step today will help you lead a better tomorrow.”</h2>
+          <h1>OUR PROGRAMS</h1>
+          <p>Welcome to our comprehensive Fremont Rehab program, where we are dedicated to guiding you on your journey towards recovery, wellness, and a brighter future. Our integrated approach addresses both substance abuse and mental health challenges, recognizing the deep connection between them. Through evidence-based therapies, compassionate support, and personalized care, we're here to help you reclaim your life.</p>
         </div>
 
-        <div className="cards-header ">
-          <div class="card-wrap">
-            <div className="cards-header-left">
-              <h3>
-                Commonwealth Rehab makes getting treatment{" "}
-                <span>possible.</span>
-              </h3>
-              <br />
-              <p>
-                At Commonwealth Rehab Treatment Center, clients receive
-                individual therapy alongside a range of additional treatments,
-                including relapse prevention, trauma therapy, mindfulness
-                meditation, yoga, and more. We offer support that clients need
-                to allow them to gradually go back to treatment.{" "}
-              </p>
-            </div>
 
-            <div class="tile">
-              <Fade left>
-                <img src={Card1} alt="Mental Health" loading="lazy" />
-              </Fade>
-              <div class="text">
-                <h1>MENTAL HEALTH TREATMENT​</h1>
-                <p class="animate-text">
-                  Depending on your needs, we offer treatment for co-occurring
-                  disorders that can address both mental health and addiction
-                  disorders at the same time.
-                </p>
-                <div class="animate-text">
-                  <LinkRoll
-                    activeClass="active"
-                    to="top"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
-                    <Link to="/mental-health">
+
+      <div className="cards-flex">
+
+      <Fade top>
+        <div className="services-card">
+          <img src={Card1} alt="Mental Health" loading="lazy" />
+            <div className="card-body">
+              <h1 className="card-title">Partial Hospitalization</h1>
+              <p className="card-text"> This intensive, structured program provides a comprehensive level of care for individuals seeking a dedicated and supportive environment on their path to recovery from mental health and addiction challenges.</p>
+                <div className="services-card-btn">
+                  <LinkRoll activeClass="active" to="top" spy={true}smooth={true} duration={500}>
+                    <Link to="/php">
                       <button>Learn More</button>
                     </Link>
                   </LinkRoll>
                 </div>
-              </div>
             </div>
-
-            <div class="tile">
-              <Fade left>
-                <img src={Card2} alt="Mental Health" loading="lazy" />
-              </Fade>
-              <div class="text">
-                <h1>ADDICTION TREATMENT​</h1>
-                <p class="animate-text">
-                  No matter what type of addiction or mental health condition
-                  you are dealing with, there’s something for everyone at Buena
-                  Park Rehab.
-                </p>
-                <div class="animate-text">
-                  <LinkRoll
-                    activeClass="active"
-                    to="top"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
-                    <Link to="/substance-abuse">
-                      <button>Learn More</button>
-                    </Link>
-                  </LinkRoll>
-                </div>
-              </div>
-            </div>
-
-            <div class="tile">
-              <Fade right>
-                <img src={Card3} alt="Warehouse Employees" loading="lazy" />
-              </Fade>
-              <div class="text">
-                <h1>EMPLOYMENT ASSISTANCE</h1>
-                <p class="animate-text">
-                  We offer a variety of employment tools and resources to help
-                  you land on your feet and get hired at a great company in
-                  recovery.
-                </p>
-                <div class="animate-text">
-                  <LinkRoll
-                    activeClass="active"
-                    to="top"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
-                    <Link to="/jobs">
-                      <button>Learn More</button>
-                    </Link>
-                  </LinkRoll>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
+      </Fade>
+
+      <Fade bottom>
+        <div className="services-card">
+          <img src={Card2} alt="Mental Health" loading="lazy" />
+            <div className="card-body">
+              <h1 className="card-title">Intensive Outpatient</h1>
+              <p className="card-text"> Our IOP is designed to provide a comprehensive level of care for individuals seeking structured support in their journey towards recovery from mental health and addiction challenges.</p>
+                <div className="services-card-btn">
+                  <LinkRoll activeClass="active" to="top" spy={true}smooth={true} duration={500}>
+                    <Link to="/iop">
+                      <button>Learn More</button>
+                    </Link>
+                  </LinkRoll>
+                </div>
+            </div>
+        </div>
+      </Fade>
+
+      <Fade top>
+        <div className="services-card">
+          <img src={Card3} alt="Mental Health" loading="lazy" />
+            <div className="card-body">
+              <h1 className="card-title">Outpatient</h1>
+              <p className="card-text"> Our Outpatient Programs offers a flexible and supportive approach to treatment for individuals seeking to overcome mental health and addiction challenges.</p>
+                <div className="services-card-btn">
+                  <LinkRoll activeClass="active" to="top" spy={true}smooth={true} duration={500}>
+                    <Link to="/op">
+                      <button>Learn More</button>
+                    </Link>
+                  </LinkRoll>
+                </div>
+            </div>
+        </div>
+      </Fade>
+
       </div>
+    </div>
+  </div>
     </>
   );
 };

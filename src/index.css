@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
-  --primary-color: rgb(9, 147, 189);
-  --primary-dark: #0d2154;
-  --secondary-color: #46a828;
+  --primary-color: rgb(25, 53, 104);
+  --primary-dark: #2b3d6b;
+  --primary-text: #171817;
 
 }
 
@@ -22,6 +25,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif;
+  color: #848484;
 }
 
 code {
@@ -39,6 +43,7 @@ a {
 
 a:hover {
   color: #06cfcf;
+  text-decoration: none;
 }
 
 p {
@@ -69,15 +74,15 @@ h2 {
 
 button {
   font-family: 'Roboto', sans-serif;
-  padding: .7rem 3rem;
+  padding: .7rem 2.5rem;
   margin: 1rem 0;
-  background-color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  color: #f8f8f8;
+  background-color: white;
+  color: black;
   font-size: 1rem;
   font-weight: 500;
-  border-radius: 20px;
+  border-radius: 5px;
   cursor:pointer;
+  border: none;
 
 }
 
@@ -107,27 +112,6 @@ padding: 7px 0 0px 0;
 margin: 0px 5px;
 }
 
-
-/* SUBMENU SECTION */
-
-/* .wrap {
-    display: flex;
-    flex-wrap: wrap ;
-    justify-content: center;
-  }
-  
-  .box {
-      height: auto;
-      margin: 1rem;
-  }
-  
-  .wrap .header {
-      text-align: left;
-  }
-  
-  .box img {
-      border-radius: 10px;
-  } */
   
   p {
       font-size: 15px;
@@ -240,7 +224,6 @@ margin: 0px 5px;
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
-
 }
 
 .hero-divider img {

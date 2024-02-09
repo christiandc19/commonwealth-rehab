@@ -1,44 +1,67 @@
-import React from "react";
-import Fade from "react-reveal/Fade";
-import "./Hero.css";
+import React from 'react'
+import { Link } from 'react-router-dom';
+import { Link as LinkRoll } from 'react-scroll'
+// import Fade from 'react-reveal/Fade';
+import './Hero.css'
+
+import BgVideo from '../../assets/hero_video.mp4'
+
 
 const Hero = () => {
-  return (
-    <>
-      <div className="hero">
-        <div className="hero-container">
-          <div className="content">
-            <Fade left>
-              <h2 className="subtitle">WELCOME TO</h2>
-            </Fade>
-            <Fade right>
-              <h1 className="animate-charcter">COMMONWEALTH REHAB</h1>
-            </Fade>
+    return (
+<>        
 
-            <Fade left>
-              <h2 className="subtitle">
-                MENTAL HEALTH AND SUBSTANCE ABUSE TREATMENT FACILITY
-              </h2>
-            </Fade>
+        <div className='hero'>
+            <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
 
-            <Fade bottom>
-              <p>"Start your treatment journey with us"</p>
-            </Fade>
-          </div>
 
-          <div className="hero-btn">
-            <button class="hero-cta">
-              <span>CONTACT US</span>
-              <svg viewBox="0 0 13 10" height="10px" width="15px">
-                <path d="M1,5 L11,5"></path>
-                <polyline points="8 1 12 5 8 9"></polyline>
-              </svg>
-            </button>
-          </div>
+
+            <div className="hero-container">
+
+
+
+            <div className="content">
+                        <h1>COMMONWEALTH <span> REHAB</span></h1>
+                        <h2> Find out how TMS can help you overcome depression.</h2>
+                        <br />
+                        <div className='hero-btns'>
+
+                        <div className='hero-btn'>
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to="/contact">
+                        <button>CALL US</button>
+                        </Link>
+                        </LinkRoll>
+                        </div>
+
+                        <div className='hero-btn hero-btn2'>
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to="/tms-therapy">
+                        <button>LEARN MORE</button>
+                        </Link>
+                        </LinkRoll>
+                        </div>
+
+
+                        </div>
+
+                    <br />
+                    <div>
+                    <p><i>Reigniting Hope, Restoring Lives.</i></p>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
         </div>
-      </div>
-    </>
-  );
-};
 
-export default Hero;
+
+</>
+
+    )
+}
+
+export default Hero

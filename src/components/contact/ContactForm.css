@@ -1,5 +1,5 @@
 .contactform {
-  background: #F0EFE3;
+  background: #ffffff;
   padding: 3rem 0;
 }
 
@@ -7,7 +7,6 @@
   .get_form_inner {
     display: block;
     padding: 3rem 3rem ;
-    background: #F0EFE3;
     box-shadow: -4px -2px 20px -7px #cfd5df;
     margin: 2rem 5rem 2rem 5rem;
   }
@@ -50,7 +49,7 @@ input {
   }
 
   input[type="submit"] {
-    background-color: var(--primary-color);
+    background-color: #1C3B48;
     border: var(--primary-color);
     color: #fff;    
     display: inline-block;
@@ -70,7 +69,7 @@ input {
   }
 
   input[type="submit"]:hover {
-    background-color: var(--secondary-color);
+    background-color: rgb(190, 126, 6);
     border-color: var(--secondary-color);
     color: #fff;
   }
@@ -103,14 +102,21 @@ input {
     margin: 1rem auto;
     }
 
-    iframe {
+    .hidden {
+      display: none;
+      margin-bottom: 2rem;
+      color: white;
+      text-align: center;
       width: 100%;
-      border-radius: 1rem;
-      border: none;
-      box-shadow: 10px 5px 5px rgb(129, 129, 129);
-
-    }
-
+      margin: auto;
+      z-index: 2;
+  }
+  
+  .textarea2 textarea {
+    border: none;
+    color: rgb(53, 82, 42);
+    text-align: center;
+  }
   
 
   @media screen and (max-width: 940px) {

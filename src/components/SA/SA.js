@@ -12,6 +12,7 @@ const SA = () => {
                 <div className="sa-content">
                     <Fade top>
                     <h1>SUBSTANCE ABUSE PROGRAMS</h1>
+                    <h2>Get Treatment That's Right For You</h2>
                     </Fade>
             </div>
         </div>

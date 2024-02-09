@@ -5,17 +5,12 @@ import App from './App';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import MethodPage from './routes/MethodPage'
-import MissionPage from './routes/MissionPage'
+import TreatmentPage from './routes/TreatmentPage'
 import AboutPage from './routes/AboutPage'
 import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
 
 import MH from './routes/MH';
-import MHPhp from './routes/MH-PHP';
-import MHIop from './routes/MH-IOP';
-import MHOp from './routes/MH-OP';
-
 import Jobs from './routes/JOBS';
 
 import AcuteStressDisorder from './routes/AcuteStressDisorder';
@@ -43,9 +38,9 @@ import PRESCRIPTIONS from './routes/PRESCRIPTIONS';
 import XANAX from './routes/XANAX';
 
 import SA from './routes/SA';
-import SAPhp from './routes/SA-PHP';
-import SAIop from './routes/SA-IOP';
-import SAOp from './routes/SA-OP';
+import Php from './routes/PHP';
+import Iop from './routes/IOP';
+import Op from './routes/OP';
 
 
 
@@ -57,10 +52,6 @@ ReactDOM.render(
       <Route exact path='/' element={<App />} />
 
       <Route exact path='/mental-health' element={<MH />} />
-      <Route exact path='/mental-health-php' element={<MHPhp />} />
-      <Route exact path='/mental-health-iop' element={<MHIop />} />
-      <Route exact path='/mental-health-op' element={<MHOp />} />
-
       <Route exact path='/jobs' element={<Jobs />} />
 
       <Route exact path='/acute-stress-disorder' element={<AcuteStressDisorder />} />
@@ -91,14 +82,13 @@ ReactDOM.render(
       <Route exact path='/xanax' element={<XANAX />} />
 
       <Route exact path='/substance-abuse' element={<SA />} />
-      <Route exact path='/substance-abuse-php' element={<SAPhp />} />
-      <Route exact path='/substance-abuse-iop' element={<SAIop />} />
-      <Route exact path='/substance-abuse-op' element={<SAOp />} />
+      <Route exact path='/php' element={<Php />} />
+      <Route exact path='/iop' element={<Iop />} />
+      <Route exact path='/op' element={<Op />} />
 
 
 
-      <Route exact path='/method' element={<MethodPage />} />
-      <Route exact path='/mission' element={<MissionPage />} />
+      <Route exact path='/treatment' element={<TreatmentPage />} />
       <Route exact path='/about-us' element={<AboutPage />} />
       <Route exact path='/insurance' element={<InsurancePage />} />
       <Route exact path='/contact' element={<ContactPage />} />
