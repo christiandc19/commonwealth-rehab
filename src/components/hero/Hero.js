@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Link as LinkRoll } from 'react-scroll'
-// import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 import './Hero.css'
 
 import BgVideo from '../../assets/hero_video.mp4'
@@ -21,8 +21,12 @@ const Hero = () => {
 
 
             <div className="content">
+                        <Zoom duration={1000}>
                         <h1>COMMONWEALTH <span> REHAB</span></h1>
-                        <h2> Find out how TMS can help you overcome depression.</h2>
+                        </Zoom>
+                        <Zoom duration={3000}>
+                        <h2> "Empowering wellness, reclaiming lives: your partner in mental health and substance abuse recovery."</h2>
+                        </Zoom>
                         <br />
                         <div className='hero-btns'>
 
@@ -36,7 +40,7 @@ const Hero = () => {
 
                         <div className='hero-btn hero-btn2'>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to="/tms-therapy">
+                        <Link to="/treatment">
                         <button>LEARN MORE</button>
                         </Link>
                         </LinkRoll>
@@ -45,10 +49,6 @@ const Hero = () => {
 
                         </div>
 
-                    <br />
-                    <div>
-                    <p><i>Reigniting Hope, Restoring Lives.</i></p>
-                    </div>
                 </div>
 
 

@@ -14,7 +14,7 @@
   .contact-hero:before {
     content: '';
     position: absolute;
-    background: url('../../assets/menu-bg-contact-min.jpg') no-repeat center top/cover;
+    background: url('../../assets/menu-bg-contact-min.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -23,8 +23,7 @@
 .contact-hero .contact-hero-content {
     display: block;
     position: absolute;
-    top: 40%;
-    left: 5%;
+    bottom: 10%;
     padding: 1rem;
 }
 
@@ -32,12 +31,13 @@
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-align: center;
 }
 
 .contact-hero p {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -47,18 +47,12 @@
 
 .contact-hero .contact-hero-content {
     width: 100%;
-    top: 40%;
-    left: 0%;
     padding: 1rem;
 }
     
 
-.contact-hero p {
-    text-align: center;
-}
 
 .contact-hero h1 {
-    font-size: 3rem;
-    text-align: center;
+    font-size: 2rem;
 }
 }

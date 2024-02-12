@@ -16,7 +16,7 @@ const Cards = () => {
       <div id="cards">
         <div className="main-cards-header container">
           <h1>OUR PROGRAMS</h1>
-          <p>Welcome to our comprehensive Fremont Rehab program, where we are dedicated to guiding you on your journey towards recovery, wellness, and a brighter future. Our integrated approach addresses both substance abuse and mental health challenges, recognizing the deep connection between them. Through evidence-based therapies, compassionate support, and personalized care, we're here to help you reclaim your life.</p>
+          <p>Welcome to our comprehensive Commonwealth Rehab program, where we are dedicated to guiding you on your journey towards recovery, wellness, and a brighter future. Our integrated approach addresses both substance abuse and mental health challenges, recognizing the deep connection between them. Through evidence-based therapies, compassionate support, and personalized care, we're here to help you reclaim your life.</p>
         </div>
 
 

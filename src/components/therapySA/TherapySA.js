@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import Alcohol from "../../assets/sa-alcohol.png";
 import Prescriptions from "../../assets/sa-prescriptions.png";
 import Heroin from "../../assets/sa-heroin.png";
-import Xanax from "../../assets/sa-xanax.png";
+import Xanax from "../../assets/sa-xanax.webp";
 
 
 const TherapySA = () => {
@@ -20,7 +20,7 @@ const TherapySA = () => {
               <div className="left-content">
                 <h1>Types of Substance Addiction Disorder We Treat</h1>
                 <p>
-                  Here at Fremont Rehab, we offer a full array
+                  Here at Commonwealth Rehab, we offer a full array
                   of affordable drug rehab programs that can take addicts from
                   detox to inpatient or outpatient care and back home again.
                 </p>

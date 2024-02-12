@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="top">
 
             <div className="logo-footer">
-              <img src={logo} alt="Fremont Rehab Logo" loading="lazy"/>
+              <img src={logo} alt="Commonwealth Rehab Logo" loading="lazy"/>
             </div>
 
             <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
@@ -111,7 +111,7 @@ const Footer = () => {
           </div>
           <p className="copyright">
             <p>
-              &copy; 2023 Fremont Rehab. All rights reserved
+              &copy; 2024 Commonwealth Rehab. All rights reserved
             </p>
           </p>
         </div>

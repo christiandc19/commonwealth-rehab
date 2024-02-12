@@ -1,13 +1,12 @@
 import React from "react";
 import { Link as LinkRoll } from "react-scroll";
-
 import "./TherapyMH.css";
 import { Link } from "react-router-dom";
 
-import Anxiety from "../../assets/mh-anxiety.png";
-import Depression from "../../assets/mh-depression.png";
-import Bipolar from "../../assets/mh-bipolar.png";
-import Stress from "../../assets/mh-stress.png";
+import Anxiety from "../../assets/mh-anxiety.webp";
+import Depression from "../../assets/mh-depression.webp";
+import Bipolar from "../../assets/mh-bipolar.webp";
+import Stress from "../../assets/mh-stress.webp";
 
 
 const TherapyMH = () => {
@@ -28,61 +27,57 @@ const TherapyMH = () => {
           <div className="mh-flex container">
 
             <div className="card">
+              <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                <Link to="/anxiety">
+                  <div className="card-icon">
+                    <img src={Anxiety} alt="Anxiety" loading="lazy" />
+                  </div>   
+                  <h1>ANXIETY</h1>
+                  </Link>
+              </LinkRoll>
+              </div>
+
+            <div className="card">
               <div>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                  <Link to="/depression">
+                    <div className="card-icon">
+                      <img src={Depression} alt="Depression" loading="lazy" />
+                    </div>                   
+                    <h1>DEPRESSION</h1>
+                  </Link>
+              </LinkRoll>
 
-                <div className="card-icon">
-                  <img src={Anxiety} alt="Anxiety" loading="lazy" />
-                </div>   
-
-                <h1>ANXIETY</h1>
-                <p>
-                  Inability to manage one’s drinking habits. It is the most
-                  acute form of alcohol abuse.
-                </p>
               </div>
             </div>
 
 
             <div className="card">
               <div>
-                <div className="card-icon">
-                  <img src={Depression} alt="Depression" loading="lazy" />
-                </div>                   <h1>DEPRESSION</h1>
-                <p>
-                  Abuse of prescription medications can be recreational, due to
-                  addiction, or both, and the consequences can be severe or
-                  fatal.
-                </p>
-              </div>
-            </div>
-
-
-            <div className="card">
-              <div>
-
+              <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                  <Link to="/bipolar-disorder">
                 <div className="card-icon">
                   <img src={Bipolar} alt="Bipolar" loading="lazy" />
                 </div>                 
                 <h1>BIPOLAR</h1>
-                <p>
-                  Heroin is an opioid stimulant created from morphine and the
-                  seed of the poppy plant. It usually appears in either powder
-                  form or as a sticky tar substance.
-                </p>
+                </Link>
+              </LinkRoll>
+
               </div>
             </div>
 
             <div className="card">
               <div>
+              <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                  <Link to="/acute-stress-disorder">
+
                 <div className="card-icon">
                   <img src={Stress} alt="Stress" loading="lazy" />
                 </div>                 
                 <h1>STRESS DISORDER</h1>
-                <p>
-                  When taken in high doses, Xanax can lead to serious side
-                  effects, ranging from coma, to respiratory arrest, and even
-                  death.
-                </p>
+                </Link>
+              </LinkRoll>
+
               </div>
             </div>
           </div>

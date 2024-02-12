@@ -10,9 +10,9 @@ const Section1 = () => {
     <div className='section1'>
 
           <div className='section1-header container'>
-                <h1>What We Do</h1>
+                <h1>WELCOME TO COMMONWEALTH REHAB</h1>
                 <p>
-                At Fremont Rehab, we are committed to providing compassionate, evidence-based care to individuals and families struggling with mental health challenges and addiction. Our dedicated team of licensed professionals, including therapists, counselors, and medical experts, work collaboratively to offer a range of comprehensive services designed to support your unique journey towards healing and recovery.
+                We are committed to providing compassionate, evidence-based care to individuals and families struggling with mental health challenges and addiction. Our dedicated team of licensed professionals, including therapists, counselors, and medical experts, work collaboratively to offer a range of comprehensive services designed to support your unique journey towards healing and recovery.
                 </p>
           </div>
 

@@ -11,11 +11,11 @@ const Menu2 = () => {
     <div className="menu2">
       <div className="menu2-header container">
         <h1>
-          FREMONT REHAB OFFERS VARIOUS SUBSTANCE ABUSE ADDICTION
+          COMMONWEALTH REHAB OFFERS VARIOUS SUBSTANCE ABUSE ADDICTION
           PROGRAMS
         </h1>
         <p>
-          At Fremont Rehab, clients receive individual
+          At Commonwealth Rehab, clients receive individual
           therapy alongside a range of additional treatments, including relapse
           prevention, trauma therapy, mindfulness meditation, transportation,
           yoga, and more. We offer support that clients need to allow them to

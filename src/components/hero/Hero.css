@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 .hero {
-    height: 98vh;
+    height: 98dvh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.26);
     z-index: 5555;
@@ -26,7 +26,7 @@ video {
 
 
 .hero h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.89);
 }
@@ -36,16 +36,11 @@ video {
 }
 
 .hero h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: rgb(229, 231, 229);
     padding: .5rem 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-}
-
-.hero-container p {
-    font-size: 18px;
-    color: white;
 }
 
 .hero-btns {
@@ -56,30 +51,31 @@ video {
 }
 
 .hero .hero-btn button {
-    background-color: rgb(43, 160, 206);
-    border: 1px solid rgb(43, 160, 206);
+    background-color: #b89646;
+    border: none;
     cursor: pointer;
     color: white;
 }
 
 .hero .hero-btn button:hover {
-    background-color: var(--secondary-text);
+    background-color: white;
+    color: #b89646;
     border: 1px solid var(--secondary-text);
 }
 
 
 .hero .hero-btn2 button {
     background-color: rgba(43, 160, 206, 0);
-    border: 1px solid rgb(43, 160, 206);
+    border: 1px solid white;
     cursor: pointer;
-    color: white;
+    color: #b89646;
 }
 
 .hero .hero-btn2 button:hover {
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);
     cursor: pointer;
-    color: rgb(43, 160, 206);
+    color: #b89646;
 }
 
 
@@ -107,7 +103,6 @@ video {
     .hero h2 {
         text-align: center;
         font-size: 1.2rem;
-        padding: 1rem;
     }
 
     .hero-btns {
@@ -117,13 +112,18 @@ video {
 }
 
 
-@media screen and (max-width:940px)  {
+@media screen and (max-width:500px)  {
     .hero h1 {
-        font-size: 3rem;
+        font-size: 2rem;
+        line-height: 2rem;
         }
 
+        .hero h2 {
+            font-size: 1rem;
+            }
+
     .hero span {
-        font-size: 3rem;
+        font-size: 2rem;
         }
     
 }
